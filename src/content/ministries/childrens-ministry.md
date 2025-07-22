@@ -1,9 +1,9 @@
 ---
-name: "Children's Ministry"
+name: "Desi Eggs"
 slug: "childrens-ministry"
 logo: "/uploads/ministries/childrens-ministry-logo.webp"
-summary: "Nurturing children ages 0-12 in their faith journey through engaging, age-appropriate programs that teach God's love."
-coordinator: "Mrs. Jennifer Davis"
+summary: "Heritage Roots Desi Eggs come from native chickens, freely roaming the serene Western Ghats. This traditional, ethical, and natural farming approach ensures you get a truly premium product."
+price: "30 ps : 200 Rs /-"
 contact: "children@churchname.org"
 schedule: "Sunday School: 9:15 AM | Children's Church: 10:30 AM | Wednesday Kids Club: 6:30 PM"
 order: 1
@@ -12,83 +12,22 @@ draft: false
 
 ## Our Mission
 
-To partner with parents in raising children who know, love, and follow Jesus Christ. We create a safe, fun, and engaging environment where children can learn about God's love and develop a personal relationship with Him.
+Heritage Roots Desi Eggs are a premium, natural product sourced from Native Desi Nati birds raised in the serene hills of the Western Ghats. These eggs are the result of traditional, free-range farming where the chickens roam freely, ensuring an ethical and natural upbringing.
 
-## Age-Appropriate Programs
+## Key characteristics of Heritage Roots Desi Eggs
 
-### Nursery (0-2 years)
-- Safe, loving care during services
-- Trained volunteers and security procedures
-- Age-appropriate toys and activities
-- Diaper changing and feeding assistance
+### Authentic Breed :
 
-### Preschool (3-5 years)
-- Interactive Bible stories
-- Songs and movement activities
-- Simple crafts and games
-- Character-building lessons
+They come exclusively from native Desi Nati chickens, prized for their authentic taste and nutritional value.
 
-### Elementary (K-5th grade)
-- Engaging Bible lessons
-- Worship and prayer time
-- Service projects
-- Scripture memorization programs
+### Completely Natural :
 
-## Weekly Schedule
+The eggs are produced without the use of any chemicals or antibiotics, offering a pure and healthy choice for you and your family.
 
-### Sunday Programs
-- **9:15 AM**: Sunday School for all ages
-- **10:30 AM**: Children's Church (during main service)
+### Rich in Flavor and Nutrients :
 
-### Wednesday Programs
-- **6:30 PM**: Kids Club with dinner, games, and Bible study
+They are described as having a rich, distinct flavor and high nutritional content, reminiscent of the wholesome eggs from a traditional village upbringing.
 
-## Special Events
+### Farmed with Care :
 
-### Vacation Bible School
-Annual summer program featuring:
-- Daily Bible lessons and activities
-- Music and drama presentations
-- Crafts and games
-- Community outreach projects
-
-### Children's Christmas Program
-- Annual Christmas presentation
-- Opportunity for children to participate in worship
-- Family-friendly celebration
-
-### Easter Celebration
-- Easter egg hunt
-- Resurrection story activities
-- Spring festival games
-
-## Safety and Security
-
-We prioritize the safety of all children through:
-- Background checks for all volunteers
-- Secure check-in/check-out procedures
-- Trained staff in child protection policies
-- Clean and safe facilities
-
-## Volunteer Opportunities
-
-We need volunteers to serve as:
-- Teachers and assistants
-- Nursery workers
-- Event helpers
-- Administrative support
-
-### Requirements for Volunteers
-- Love for children and desire to serve
-- Commitment to regular attendance
-- Completion of background check
-- Participation in training sessions
-
-## Parent Resources
-
-- Monthly newsletters with lesson themes
-- Suggested activities for home
-- Parenting workshops and support groups
-- Family devotional materials
-
-Contact Mrs. Jennifer Davis to learn more about our children's ministry or to volunteer.
+Each egg is a reflection of the farm's commitment to purity, tradition, and trust, supporting honest, village-based farming rather than mass production.

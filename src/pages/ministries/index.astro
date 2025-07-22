@@ -16,8 +16,8 @@ const ministries = all.sort((a, b) =>
 
 <BaseLayout title="Our Ministries" description="Discover our ministries.">
   <PageHeader
-    title="Our Ministries"
-    subtitle="Ways to connect, grow, and serve"
+    title="Our Products"
+    subtitle="Healthy, 100% homemgrown"
     backgroundImage="/uploads/ministries-header-bg.webp"
   />
 
@@ -25,9 +25,9 @@ const ministries = all.sort((a, b) =>
   <section class="py-16 bg-white">
     <div class="container mx-auto px-4">
       <div class="text-center mb-12">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4">Connect With a Ministry</h2>
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Browse our wide range of products</h2>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-          Explore our ministries to grow in faith, connect with community, and serve.
+          We offer wide range of products, from fresh produce to artisanal goods, all grown in our farm with care and quality in mind.
         </p>
       </div>
 
@@ -58,9 +58,9 @@ const ministries = all.sort((a, b) =>
                 <h3 class="text-xl font-semibold mb-2">{m.data.name}</h3>
                 <p class="text-gray-700">{m.data.summary}</p>
               </div>
-              {(m.data.coordinator || m.data.schedule) && (
+              {(m.data.price || m.data.schedule) && (
                 <div class="mt-4 space-y-1 text-sm text-gray-600">
-                  {m.data.coordinator && (
+                  {m.data.price && (
                     <div class="flex items-center">
                       <svg xmlns="http://www.w3.org/2000/svg"
                            class="h-4 w-4 mr-1" fill="none"
@@ -69,19 +69,7 @@ const ministries = all.sort((a, b) =>
                               stroke-width="2"
                               d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                       </svg>
-                      Coordinator: {m.data.coordinator}
-                    </div>
-                  )}
-                  {m.data.schedule && (
-                    <div class="flex items-center">
-                      <svg xmlns="http://www.w3.org/2000/svg"
-                           class="h-4 w-4 mr-1 align-text-top" fill="none"
-                           viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                              stroke-width="2"
-                              d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
-                      {m.data.schedule}
+                      Price: {m.data.price}
                     </div>
                   )}
                 </div>

@@ -1,9 +1,9 @@
 ---
-name: "Worship Ministry"
+name: "Desi Chicken"
 slug: "worship-ministry"
 logo: "/uploads/ministries/worship-logo.webp"
-summary: "Leading our congregation in Spirit-filled worship through music, song, and creative expression."
-coordinator: "David Wilson"
+summary: "The farm sells naturally raised Desi Nati chicken meat, which is described as clean, delicious, and nutritious."
+price: "1 : 200 /- "
 contact: "worship@churchname.org"
 schedule: "Rehearsals: Thursday 7:00 PM | Sunday Services: 8:00 AM & 10:30 AM"
 order: 2
@@ -12,35 +12,22 @@ draft: false
 
 ## Our Vision
 
-To create an atmosphere of authentic worship where people can encounter God's presence and respond to His love through music and creative expression.
+The Desi Chicken from Heritage Roots is a premium-quality meat sourced directly from native Desi Nati birds, a breed indigenous to India. Raised on a family farm in the lush, green hills of Chikmagalur, these chickens are a true taste of tradition.
 
-## Ministry Areas
+## Key characteristics of the Heritage Roots Desi Chicken:
 
-### Music Teams
-- Vocalists
-- Instrumentalists (piano, guitar, drums, bass, etc.)
-- Sound technicians
-- Visual/projection team
+### Authentic Native Breed:
 
-### Creative Arts
-- Dance ministry
-- Drama team
-- Visual arts
+The chickens are of the Desi Nati breed, known for its firm texture and rich, authentic flavor that is distinct from commercially raised poultry.
 
-## Getting Involved
+### Raised Naturally:
 
-We welcome those with musical or technical abilities to join our ministry. Requirements include:
+They are 100% free-range, raised the "natural way — in the open air, under the sun." The farm avoids all chemicals, antibiotics, and artificial methods, ensuring the meat is clean and pure.
 
-1. A heart for worship and serving
-2. Regular church attendance
-3. Commitment to rehearsals
-4. Basic musical proficiency (for musicians)
+### Ethical and Honest Farming:
 
-### Training & Development
+The birds are part of a farming philosophy that respects nature. The farm focuses on honest, traditional methods, rejecting the shortcuts and mass-production techniques of commercial farming.
 
-- Monthly worship workshops
-- Music theory classes
-- Sound engineering basics
-- Spiritual formation sessions
+### Superior Taste and Nutrition:
 
-Contact our worship coordinator to schedule an audition or learn more about serving opportunities.
+The result of this natural upbringing is meat that is described as delicious, nutritious, and full of flavor, offering a genuine "taste of tradition."
