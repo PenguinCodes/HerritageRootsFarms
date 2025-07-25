@@ -7,7 +7,7 @@ import { getCollection } from "astro:content";
 // Generate static paths for all ministries
 export async function getStaticPaths() {
   try {
-    const ministryEntries = await getCollection("ministries", ({ data }) => {
+    const ministryEntries = await getCollection("products", ({ data }) => {
       return import.meta.env.PROD ? !data.draft : true;
     });
 
@@ -22,7 +22,18 @@ export async function getStaticPaths() {
 }
 
 // Get the ministry data
-const { entry } = Astro.props;
+interface MinistryEntry {
+  data: {
+    name: string;
+    summary?: string;
+    logo?: string;
+    price?: string;
+    // add other fields as needed
+  };
+  render: () => Promise<{ Content: any }>;
+}
+
+const { entry } = Astro.props as { entry: MinistryEntry };
 const { Content } = await entry.render();
 ---
 
@@ -35,7 +46,7 @@ const { Content } = await entry.render();
 >
   <PageHeader
     title={entry.data.name}
-    backgroundImage="/uploads/ministry-detail-bg.webp"
+    backgroundImage="/uploads/background.jpg"
   />
 
   <section class="py-16">
@@ -65,7 +76,7 @@ const { Content } = await entry.render();
               )
             }
 
-            <h3 class="text-xl font-bold mb-4">Desi Eggs</h3>
+            <h3 class="text-xl font-bold mb-4">Buy Now!!</h3>
 
             <div class="space-y-4 mb-6">
               {
@@ -83,7 +94,7 @@ const { Content } = await entry.render();
                 href="/contact?subject=Ministry+Inquiry"
                 variant="primary"
               >
-                Get Involved
+                Contact Us Now!
               </Button>
 
               <Button href="/products" variant="outline">

@@ -1,7 +1,7 @@
 ---
 name: "Desi Chicken"
-slug: "worship-ministry"
-logo: "/uploads/ministries/worship-logo.webp"
+slug: "desi-chicken"
+logo: "/uploads/products/chiken.jpg"
 summary: "The farm sells naturally raised Desi Nati chicken meat, which is described as clean, delicious, and nutritious."
 price: "1 : 200 /- "
 contact: "worship@churchname.org"

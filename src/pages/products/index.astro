@@ -4,7 +4,7 @@ import PageHeader from "../../components/Sections/PageHeader.astro";
 import { getCollection } from "astro:content";
 
 // Fetch all ministries
-const all = await getCollection("ministries", ({ data }) =>
+const all = await getCollection("products", ({ data }) =>
   import.meta.env.PROD ? !data.draft : true
 );
 // Sort by order or name
@@ -82,7 +82,7 @@ const ministries = all.sort((a, b) =>
   </section>
 
   <!-- Volunteer CTA -->
-  <section
+  <!-- <section
     class="py-20 bg-cover bg-center text-white"
     style="background-image:
       linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
@@ -105,5 +105,5 @@ const ministries = all.sort((a, b) =>
         </a>
       </div>
     </div>
-  </section>
+  </section> -->
 </BaseLayout>
