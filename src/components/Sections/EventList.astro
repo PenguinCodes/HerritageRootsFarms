@@ -18,12 +18,14 @@ const allEvents = await getCollection("events", ({ data }) => {
 
 // Sort by date (upcoming first)
 const events = allEvents
-  .sort((a, b) => new Date(a.data.date).getTime() - new Date(b.data.date).getTime())
-  .filter(event => new Date(event.data.date) >= new Date()) // Only future events
+  .sort(
+    (a, b) => new Date(a.data.date).getTime() - new Date(b.data.date).getTime()
+  )
+  .filter((event) => new Date(event.data.date) >= new Date()) // Only future events
   .slice(0, count);
 ---
 
-<section class="py-16 bg-gray-50">
+<!-- <section class="py-16 bg-gray-50">
   <div class="container">
     <div class="text-center mb-12">
       <h2 class="text-3xl md:text-4xl font-bold mb-4">Upcoming Events</h2>
@@ -74,4 +76,4 @@ const events = allEvents
       </div>
     )}
   </div>
-</section>
+</section> -->

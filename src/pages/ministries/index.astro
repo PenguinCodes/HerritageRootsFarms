@@ -14,7 +14,7 @@ const ministries = all.sort((a, b) =>
 );
 ---
 
-<BaseLayout title="Our Ministries" description="Discover our ministries.">
+<BaseLayout title="Our Products" description="Discover our products.">
   <PageHeader
     title="Our Products"
     subtitle="Healthy, 100% homemgrown"
@@ -34,7 +34,7 @@ const ministries = all.sort((a, b) =>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {ministries.map(m => (
         <a
-          href={`/ministries/${m.slug}`}
+          href={`/products/${m.slug}`}
           class="
           g-white rounded-lg shadow 
           flex flex-col overflow-hidden 
