@@ -24,7 +24,7 @@ import Button from "../components/UI/Button.astro";
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
           <div class="bg-gray-50 p-8 rounded-lg shadow-sm">
             <h3 class="text-xl font-bold mb-3">Desi Eggs</h3>
-            <p class="text-2xl font-bold text-primary-600 mb-2">30 / 200 Rs</p>
+            <p class="text-2xl font-bold text-green-600 mb-2">30 / 200 Rs</p>
             <br />
             <p class="text-gray-600 mb-4">
               Fresh, organic eggs from our native hens, raised with care and
@@ -34,7 +34,7 @@ import Button from "../components/UI/Button.astro";
 
           <div class="bg-gray-50 p-8 rounded-lg shadow-sm">
             <h3 class="text-xl font-bold mb-3">Desi Chikens</h3>
-            <p class="text-2xl font-bold text-primary-600 mb-2">1 / 150 Rs</p>
+            <p class="text-2xl font-bold text-green-600 mb-2">1 / 150 Rs</p>
             <br />
             <p class="text-gray-600 mb-4">
               Chikens raised in a natural environment, free from antibiotics and
@@ -78,7 +78,12 @@ import Button from "../components/UI/Button.astro";
             real, something meaningful, rooted in the land he calls home.
           </p>
 
-          <Button href="/about-us"> Learn More About Us </Button>
+          <Button
+            href="/about-us"
+            class="text-green-600 border-green-600 hover:bg-green-600 hover:text-white"
+          >
+            Learn More About Us
+          </Button>
         </div>
       </div>
     </div>
@@ -107,7 +112,7 @@ import Button from "../components/UI/Button.astro";
           >
             <!-- <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-10 w-10 text-primary-600"
+            class="h-10 w-10 text-green-600"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -127,7 +132,7 @@ import Button from "../components/UI/Button.astro";
           </p>
           <a
             href="/products/desi-eggs"
-            class="text-primary-600 font-medium hover:text-primary-700"
+            class="text-green-600 font-medium hover:text-green-700"
           >
             Learn More →
           </a>
@@ -159,7 +164,7 @@ import Button from "../components/UI/Button.astro";
           </p>
           <a
             href="/products/desi-chicken"
-            class="text-primary-600 font-medium hover:text-primary-700"
+            class="text-green-600 font-medium hover:text-green-700"
           >
             Learn More →
           </a>
@@ -191,7 +196,7 @@ import Button from "../components/UI/Button.astro";
           </p>
           <a
             href="/products/desi-goats"
-            class="text-primary-600 font-medium hover:text-primary-700"
+            class="text-green-600 font-medium hover:text-green-700"
           >
             Learn More →
           </a>

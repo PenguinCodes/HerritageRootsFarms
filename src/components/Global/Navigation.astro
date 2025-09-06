@@ -26,8 +26,8 @@ const currentPath = Astro.url.pathname;
           <li>
             <a
               href={item.href}
-              class={`text-base font-medium transition-colors hover:text-primary-600 ${
-                isActive ? "text-primary-600" : "text-gray-700"
+              class={`text-base font-medium transition-colors hover:text-green-600 ${
+                isActive ? "text-green-600" : "text-gray-700"
               }`}
               aria-current={isActive ? "page" : undefined}
             >
@@ -43,7 +43,7 @@ const currentPath = Astro.url.pathname;
 <!-- Mobile Menu Button -->
 <button
   id="mobile-menu-button"
-  class="lg:hidden p-2 text-gray-700 hover:text-primary-600 focus:outline-none transition-colors relative"
+  class="lg:hidden p-2 text-gray-700 hover:text-green-600 focus:outline-none transition-colors relative"
   aria-label="Toggle Menu"
   aria-expanded="false"
 >
@@ -83,8 +83,8 @@ const currentPath = Astro.url.pathname;
               href={item.href}
               class={`block px-4 py-3 text-sm font-medium rounded-lg transition-colors text-center ${
                 isActive
-                  ? "bg-primary-50 text-primary-600 border border-primary-200"
-                  : "text-gray-700 hover:bg-gray-50 hover:text-primary-600 border border-transparent"
+                  ? "bg-primary-50 text-green-600 border border-primary-200"
+                  : "text-gray-700 hover:bg-gray-50 hover:text-green-600 border border-transparent"
               }`}
               role="menuitem"
               aria-current={isActive ? "page" : undefined}
