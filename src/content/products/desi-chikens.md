@@ -3,7 +3,7 @@ name: "Desi Chicken"
 slug: "desi-chicken"
 logo: "/uploads/products/chiken.jpg"
 summary: "The farm sells naturally raised Desi Nati chicken meat, which is described as clean, delicious, and nutritious."
-price: "1 : 200 /- "
+price: ""
 contact: "worship@churchname.org"
 schedule: "Rehearsals: Thursday 7:00 PM | Sunday Services: 8:00 AM & 10:30 AM"
 order: 2

@@ -3,7 +3,7 @@ name: "Desi Eggs"
 slug: "desi-eggs"
 logo: "/uploads/products/eggs.jpg"
 summary: "Heritage Roots Desi Eggs come from native chickens, freely roaming the serene Western Ghats. This traditional, ethical, and natural farming approach ensures you get a truly premium product."
-price: "30 ps : 200 Rs /-"
+price: ""
 contact: "children@churchname.org"
 schedule: "Sunday School: 9:15 AM | Children's Church: 10:30 AM | Wednesday Kids Club: 6:30 PM"
 order: 1
